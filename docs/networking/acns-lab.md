@@ -135,7 +135,6 @@ az aks create \
   --network-plugin-mode overlay \
   --network-dataplane cilium \
   --generate-ssh-keys \
-  --kubernetes-version 1.37 \
   --enable-acns \
   --enable-container-network-logs \
   --acns-advanced-networkpolicies L7 \
